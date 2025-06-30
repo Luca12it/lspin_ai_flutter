@@ -1,4 +1,4 @@
-import 'packagefluttermaterial.dart';
+import 'package:flutter/material.dart';
 import 'home_page_widget.dart';
 
 void main() {
@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title 'LSpin AI',
-      theme ThemeData(
-        primarySwatch Colors.blue,
+      title: 'LSpin AI',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
       ),
-      home const HomePageWidget(),
+      home: const HomePageWidget(),
     );
   }
 }
